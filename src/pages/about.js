@@ -56,7 +56,7 @@ const About = () => {
                 BIOGRAPHY
               </h2>
               <p className="font-small">
-                Hello there! I'm Ankit Shah, a highly skilled professional in
+                Hello there! I am Ankit Shah, a highly skilled professional in
                 both Data Analysis and Full Stack Web Development, specializing
                 in MERN Development.
               </p>
@@ -82,7 +82,7 @@ const About = () => {
               </p>
 
               <p className="font-small">
-                Overall, I'm a dedicated and approachable developer who thrives
+                Overall, I am a dedicated and approachable developer who thrives
                 on challenges and constantly strives to exceed expectations. I'm
                 thrilled about the prospect of collaborating with you!
               </p>
