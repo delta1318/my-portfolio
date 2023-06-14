@@ -56,7 +56,7 @@ const About = () => {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-                Hey there! I'm Ankit Shah, a skilled Full Stack Web Developer
+                Hey there! I am Ankit Shah, a skilled Full Stack Web Developer
                 specializing in MERN Development. I have expertise in React,
                 Express.js, Next.js, NPM, MongoDB, Chakra UI, Tailwind CSS,
                 Node.js, HTML, CSS, and JavaScript. Throughout my experience, I

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, spring, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
+import Link from "next/link";
 
 const Details = ({ position, company, time, address, work }) => {
   const ref = useRef(null);
@@ -16,7 +17,7 @@ const Details = ({ position, company, time, address, work }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-          {position}&nbsp;<a href="/">@{company}</a>
+          {position}&nbsp;<Link href="/">@{company}</Link>
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
