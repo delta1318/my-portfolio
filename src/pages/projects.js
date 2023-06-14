@@ -12,6 +12,7 @@ import homepage from "../../public/images/projects/Home_page.png";
 import dog from "../../public/images/projects/dog.png";
 import omni from "../../public/images/projects/omni.png";
 import dark from "../../public/images/projects/dark.png";
+import navy from "../../public/images/projects/navy.png";
 
 const FramerImage = motion(Image);
 
@@ -147,22 +148,12 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:ga[-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
+                title="Live Weather App"
+                img={navy}
+                summary=""
+                link="https://live-weather-24x7x365.netlify.app/"
                 type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
+                github="https://github.com/delta1318/weather-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -182,7 +173,7 @@ const projects = () => {
                 summary=""
                 link="/"
                 type="Featured Project"
-                github="https://github.com/delta1318/Movie_Aficionado"
+                github="https://github.com/delta1318/movie-aficionado"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">

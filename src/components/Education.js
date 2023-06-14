@@ -48,13 +48,13 @@ const Education = () => {
             type="Bachelor of Technology In Electronics and Communication Engineering"
             place="SRM Institute of Science and Technology"
             time="June 2019- May 2023"
-            info="CGPA- 9.16"
+            info=""
           />
           <Details
             type="XII PCM"
             place="St. Paul Sr. Sec. School"
             time="2018-2019"
-            info="Percentage - 69%"
+            info=""
           />
         </ul>
       </div>

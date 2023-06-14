@@ -55,26 +55,36 @@ const About = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
-              <p className="font-medium">
-                Hey there! I am Ankit Shah, a skilled Full Stack Web Developer
-                specializing in MERN Development. I have expertise in React,
-                Express.js, Next.js, NPM, MongoDB, Chakra UI, Tailwind CSS,
-                Node.js, HTML, CSS, and JavaScript. Throughout my experience, I
-                have honed my problem-solving and collaboration skills through
-                team projects. I am enthusiastic about applying my technical
-                skills to exciting new projects.
+              <p className="font-small">
+                Hello there! I'm Ankit Shah, a highly skilled professional in
+                both Data Analysis and Full Stack Web Development, specializing
+                in MERN Development.
+              </p>
+              <p className="font-small my-4">
+                In the field of Data Analysis, I am proficient in Python, MySQL,
+                NumPy, Pandas, Matplotlib, Seaborn, Power BI, Tableau, MS Excel,
+                and MS PowerPoint. Through my experience, I've developed strong
+                problem-solving and collaboration skills while working on team
+                projects. I'm passionate about leveraging my technical abilities
+                in exciting new projects.
               </p>
 
-              <p className="font-medium my-4">
-                I have accomplished significant projects by creating clone
-                websites such as ZOSTEL, which is a hostel booking platform
-                encompassing more than 60 destinations in India and Nepal.
+              <p className="font-small mb-4">
+                I am an experienced Full Stack Developer proficient in a wide
+                range of technologies, such as React, Express.js, Next.js,
+                MongoDB, and more. Through collaborative projects, I have
+                strengthened my problem-solving skills. Notably, I have
+                developed a real-time weather application that provides live
+                updates and instant weather information for specific locations.
+                With a passion for innovation, I am excited to contribute my
+                expertise to engaging new ventures and make meaningful
+                contributions to compelling projects.
               </p>
 
-              <p className="font-medium">
-                Overall, I am a dedicated and friendly developer who thrives on
-                challenges and strives to exceed expectations. I am excited
-                about the opportunity to work with you!
+              <p className="font-small">
+                Overall, I'm a dedicated and approachable developer who thrives
+                on challenges and constantly strives to exceed expectations. I'm
+                thrilled about the prospect of collaborating with you!
               </p>
             </div>
 
@@ -93,18 +103,18 @@ const About = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={1400} />+
+                  Infinite
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Hours of Coding
+                  Hours of Learning
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={500} />+
+                  <AnimatedNumbers value={100} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Hours of DSA
+                  Hours of Web
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -118,7 +128,7 @@ const About = () => {
             </div>
           </div>
           <Skills />
-          <Experience />
+          {/* <Experience /> */}
           <Education />
         </Layout>
       </main>

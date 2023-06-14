@@ -18,10 +18,10 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
+      <h2 className="font-bold text-8xl mt-60 w-full text-center md:text-6xl md:mt-30">
         Skills
       </h2>
-      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm">
+      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm margis">
         <motion.div
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
@@ -37,6 +37,24 @@ const Skills = () => {
         <Skill name="Bootstrap" x="20vw" y="9vw" />
         <Skill name="MongoDB" x="22vw" y="-18vw" />
         <Skill name="Tailwind CSS" x="-22vw" y="18vw" />
+      </div>
+
+      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm mt-20">
+        <motion.div
+          className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
+          whileHover={{ scale: 1.05 }}
+        >
+          Analyst
+        </motion.div>
+
+        <Skill name="Python" x="-10vw" y="-5vw" />
+        <Skill name="MySQL" x="-7vw" y="10vw" />
+        <Skill name="Power BI" x="17vw" y="-5vw" />
+        <Skill name="NumPy" x="-15vw" y="-12vw" />
+        <Skill name="Pandas" x="2vw" y="-18vw" />
+        <Skill name="Matplotlib" x="20vw" y="9vw" />
+        <Skill name="Ms Excel" x="22vw" y="-18vw" />
+        <Skill name="Tableau" x="-22vw" y="18vw" />
       </div>
     </>
   );

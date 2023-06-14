@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe />
+        {/* <HireMe /> */}
         <div className="absolute w-24 right-8 bottom-8  inline-block">
           <Image
             src={LightBulb}
