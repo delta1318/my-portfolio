@@ -63,10 +63,10 @@ const About = () => {
               <p className="font-small my-4">
                 In the field of Data Analysis, I am proficient in Python, MySQL,
                 NumPy, Pandas, Matplotlib, Seaborn, Power BI, Tableau, MS Excel,
-                and MS PowerPoint. Through my experience, I've developed strong
-                problem-solving and collaboration skills while working on team
-                projects. I'm passionate about leveraging my technical abilities
-                in exciting new projects.
+                and MS PowerPoint. Through my experience, I have developed
+                strong problem-solving and collaboration skills while working on
+                team projects. I am passionate about leveraging my technical
+                abilities in exciting new projects.
               </p>
 
               <p className="font-small mb-4">
@@ -83,8 +83,8 @@ const About = () => {
 
               <p className="font-small">
                 Overall, I am a dedicated and approachable developer who thrives
-                on challenges and constantly strives to exceed expectations. I'm
-                thrilled about the prospect of collaborating with you!
+                on challenges and constantly strives to exceed expectations. I
+                am thrilled about the prospect of collaborating with you!
               </p>
             </div>
 
